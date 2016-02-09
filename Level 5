@@ -1,0 +1,5 @@
+Level 5
+
+Sam has gotten wise to all the people who wrote their own forms to get the password. Rather than actually learn the password, he decided to make his email program a little more secure.
+
+ANSWER: Since the page source cannot be modified anymore we will have to do some kind of javascript injection. Web pages typically have forms and the form the user is looking at when on the website is form 1. Type javascript:alert(document.form[0].to.value="YOUR EMAIL HERE") into the address box. Press enter and an alert box will pop up notifying you the email address that you entered. You can now press the "Send password to Sam" button since your email was successfully injected into the form and you can now check your email for the password.
